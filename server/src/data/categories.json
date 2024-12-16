@@ -1,0 +1,10 @@
+[
+    { "name": "Fast Food", "slug": "fast-food" },
+    { "name": "Italian", "slug": "italian" },
+    { "name": "Drinks", "slug": "drinks" },
+    { "name": "Desserts", "slug": "desserts" },
+    { "name": "Asian", "slug": "asian" },
+    { "name": "Mexican", "slug": "mexican" },
+    { "name": "Vegetarian", "slug": "vegetarian" },
+    { "name": "Seafood", "slug": "seafood" }
+]

@@ -1,0 +1,91 @@
+/* Login Container */
+.auth-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('http://localhost:3000/images/auth-cover.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.auth-page::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.auth-page-logo {
+    position: fixed;
+    margin-top: 36px;
+    top: 0;
+    z-index: 2;
+    text-align: center;
+    cursor: pointer;
+}
+.login-container {
+    position: relative;
+    z-index: 2;
+    background-color: #1e1e1e;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+    font-size: 16px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: #ff1e1e;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.login-container button:hover {
+    background: #ff4040;
+}
+
+.login-container a {
+    display: block;
+    margin-top: 15px;
+    color: #717171;
+    transition: color 0.3s;
+}
+
+.login-container a:hover {
+    color: #ff4040;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    .login-container {
+        padding: 20px;
+    }
+}

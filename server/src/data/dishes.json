@@ -1,0 +1,394 @@
+[
+    {
+        "id": 1,
+        "image": "burger.jpg",
+        "name": "Burger",
+        "category": "Fast Food",
+        "price": 5.99,
+        "description": "A classic burger with a juicy beef patty, crispy lettuce, fresh tomato, melted cheese, and creamy mayonnaise on a toasted bun. Served with a side of ketchup or mayonnaise."
+    },
+    {
+        "id": 2,
+        "image": "fries.jpg",
+        "name": "Fries",
+        "category": "Fast Food",
+        "price": 2.99,
+        "description": "Crispy, golden fries cooked to perfection. Served with a side of ketchup or mayonnaise."
+    },
+    {
+        "id": 3,
+        "image": "pizza.jpg",
+        "name": "Pizza",
+        "category": "Italian",
+        "price": 8.99,
+        "description": "Freshly baked pizza crust topped with melted mozzarella cheese, tangy tomato sauce, and your choice of toppings. Served with a side of garlic bread."
+    },
+    {
+        "id": 4,
+        "image": "spaghetti.jpg",
+        "name": "Spaghetti Bolognese",
+        "category": "Italian",
+        "price": 12.99,
+        "description": "Tender spaghetti tossed in a rich, meaty Bolognese sauce made with ground beef, onions, carrots, celery, and tomatoes. Served with a side of garlic bread."
+    },
+    {
+        "id": 5,
+        "image": "lasagna.jpg",
+        "name": "Lasagna",
+        "category": "Italian",
+        "price": 9.99,
+        "description": "Layers of pasta, rich meat sauce, and melted mozzarella cheese create a satisfying, filling meal. Served with a side of garlic bread."
+    },
+    {
+        "id": 6,
+        "image": "chicken.jpg",
+        "name": "Chicken wings",
+        "category": "Fast Food",
+        "price": 6.99,
+        "description": "Crispy fried chicken wings tossed in your choice of sauce: BBQ, Honey Mustard, or Buffalo. Served with a side of ketchup or mayonnaise."
+    },
+    {
+        "id": 7,
+        "image": "kebab.jpg",
+        "name": "Kebab",
+        "category": "Fast Food",
+        "price": 7.99,
+        "description": "Juicy meat skewers grilled to perfection, served with a side of pita bread, lettuce, tomato, and tzatziki sauce."
+    },
+    {
+        "id": 8,
+        "image": "meatballs.jpg",
+        "name": "Meatballs",
+        "category": "Italian",
+        "price": 8.99,
+        "description": "Homemade meatballs made with ground beef, pork, and breadcrumbs, served in a tangy tomato sauce. Served with a side of spaghetti."
+    },
+    {
+        "id": 9,
+        "image": "shrimp.jpg",
+        "name": "Shrimp",
+        "category": "Italian",
+        "price": 10.99,
+        "description": "Fresh shrimp cooked in a zesty garlic butter sauce, served with a side of linguine and parsley. Served with a side of garlic bread."
+    },
+    {
+        "id": 10,
+        "image": "fries.jpg",
+        "name": "Sweet potato fries",
+        "category": "Fast Food",
+        "price": 3.99,
+        "description": "Sweet potato crispy fries cooked to perfection. Served with a side of ketchup or mayonnaise."
+    },
+    {
+        "id": 11,
+        "image": "burger.jpg",
+        "name": "Cheeseburger",
+        "category": "Fast Food",
+        "price": 6.99,
+        "description": "A classic cheeseburger with a juicy beef patty, melted cheese, crispy lettuce, fresh tomato, onion, and a sesame seed bun. Served with a side of ketchup or mayonnaise."
+    },
+    {
+        "id": 12,
+        "image": "pizza.jpg",
+        "name": "Pepperoni Pizza",
+        "category": "Italian",
+        "price": 10.99,
+        "description": "Freshly baked pizza crust topped with melted mozzarella cheese, tangy tomato sauce, and sliced pepperoni. Served with a side of garlic bread."
+    },
+    {
+        "id": 13,
+        "image": "salad.jpg",
+        "name": "Greek salad",
+        "category": "Italian",
+        "price": 8.99,
+        "description": "A refreshing Greek salad with crispy lettuce, juicy tomatoes, feta cheese, olives, and cucumber. Served with a side of garlic bread."
+    },
+    {
+        "id": 14,
+        "image": "sushi.jpg",
+        "name": "Sushi",
+        "category": "Fast Food",
+        "price": 7.99,
+        "description": "Assorted sushi rolls made with fresh salmon, tuna, and avocado, served with soy sauce and wasabi. Served with a side of ketchup or mayonnaise."
+    },
+    {
+        "id": 15,
+        "image": "chicken.jpg",
+        "name": "Chicken strips",
+        "category": "Fast Food",
+        "price": 6.99,
+        "description": "Breaded and fried chicken strips served with a side of tangy dipping sauce. Served with a side of ketchup or mayonnaise."
+    },
+    {
+        "id": 16,
+        "image": "shrimp.jpg",
+        "name": "Shrimp scampi",
+        "category": "Italian",
+        "price": 12.99,
+        "description": "Fresh shrimp sautéed in garlic butter and parsley, served with a side of linguine. Served with a side of garlic bread."
+    },
+    {
+        "id": 17,
+        "image": "tortellini.jpg",
+        "name": "Tortellini",
+        "category": "Italian",
+        "price": 8.99,
+        "description": "Cheese filled tortellini tossed in a rich cream sauce with a hint of nutmeg. Served with a side of garlic bread."
+    },
+    {
+        "id": 18,
+        "image": "meatballs.jpg",
+        "name": "Meatball sub",
+        "category": "Fast Food",
+        "price": 7.99,
+        "description": "Meatball sub with melted mozzarella cheese, served with a side of marinara sauce. Served with a side of ketchup or mayonnaise."
+    },
+    {
+        "id": 19,
+        "image": "chicken.jpg",
+        "name": "Chicken parmesan",
+        "category": "Italian",
+        "price": 8.99,
+        "description": "Breaded and fried chicken parmesan topped with melted mozzarella cheese and marinara sauce. Served with a side of garlic bread."
+    },
+    {
+        "id": 20,
+        "image": "spaghetti.jpg",
+        "name": "Spaghetti Carbonara",
+        "category": "Italian",
+        "price": 12.99,
+        "description": "Spaghetti tossed in a rich, creamy sauce made with eggs, parmesan cheese, and crispy bacon. Served with a side of garlic bread."
+    },
+    {
+        "id": 21,
+        "image": "coke.jpg",
+        "name": "Coca-Cola",
+        "category": "Drinks",
+        "price": 2.99,
+        "description": "A refreshing glass of Coca-Cola."
+    },
+    {
+        "id": 22,
+        "image": "mango.jpg",
+        "name": "Mango smoothie",
+        "category": "Drinks",
+        "price": 4.99,
+        "description": "A tropical mango smoothie blended with yogurt and honey."
+    },
+    {
+        "id": 23,
+        "image": "cheesecake.jpg",
+        "name": "Cheesecake",
+        "category": "Desserts",
+        "price": 6.99,
+        "description": "A rich and creamy cheesecake with a graham cracker crust."
+    },
+    {
+        "id": 24,
+        "image": "padthai.jpg",
+        "name": "Pad Thai",
+        "category": "Asian",
+        "price": 8.99,
+        "description": "Stir-fried rice noodles with shrimp, tofu, and vegetables in a sweet and sour sauce."
+    },
+    {
+        "id": 25,
+        "image": "tacos.jpg",
+        "name": "Tacos",
+        "category": "Mexican",
+        "price": 7.99,
+        "description": "Soft tacos filled with seasoned beef, lettuce, tomatoes, and cheese. Served with a side of salsa and sour cream."
+    },
+    {
+        "id": 26,
+        "image": "veggieburger.jpg",
+        "name": "Veggie burger",
+        "category": "Vegetarian",
+        "price": 7.99,
+        "description": "A flavorful veggie burger made with black beans, roasted vegetables, and avocado, served on a toasted bun."
+    },
+    {
+        "id": 27,
+        "image": "shrimp.jpg",
+        "name": "Garlic shrimp",
+        "category": "Seafood",
+        "price": 12.99,
+        "description": "Fresh shrimp sautéed in garlic butter and parsley, served with a side of linguine."
+    },
+    {
+        "id": 28,
+        "image": "fanta.jpg",
+        "name": "Fanta",
+        "category": "Drinks",
+        "price": 3.99,
+        "description": "A refreshing glass of Fanta orange soda."
+    },
+    {
+        "id": 29,
+        "image": "coffee.jpg",
+        "name": "Coffee",
+        "category": "Drinks",
+        "price": 2.99,
+        "description": "A hot cup of coffee."
+    },
+    {
+        "id": 30,
+        "image": "springroll.jpg",
+        "name": "Spring rolls",
+        "category": "Asian",
+        "price": 6.99,
+        "description": "Crispy spring rolls filled with shrimp, vegetables, and rice noodles, served with a sweet and sour sauce."
+    },
+    {
+        "id": 31,
+        "image": "burrito.jpg",
+        "name": "Burrito",
+        "category": "Mexican",
+        "price": 8.99,
+        "description": "A large burrito filled with seasoned beef, rice, beans, and cheese, topped with salsa and sour cream."
+    },
+    {
+        "id": 32,
+        "image": "salad.jpg",
+        "name": "Greek salad",
+        "category": "Vegetarian",
+        "price": 7.99,
+        "description": "A refreshing Greek salad with crispy lettuce, juicy tomatoes, feta cheese, olives, and cucumber, served with a side of garlic bread."
+    },
+    {
+        "id": 33,
+        "image": "shrimp.jpg",
+        "name": "Shrimp",
+        "category": "Seafood",
+        "price": 12.99,
+        "description": "Fresh shrimp cooked in a zesty garlic butter sauce, served with a side of linguine and parsley. Served with a side of garlic bread."
+    },
+    {
+        "id": 34,
+        "image": "brownie.jpg",
+        "name": "Brownie",
+        "category": "Desserts",
+        "price": 5.99,
+        "description": "A rich chocolate brownie topped with vanilla ice cream and chocolate sauce."
+    },
+    {
+        "id": 35,
+        "image": "icecream.jpg",
+        "name": "Ice Cream Sundae",
+        "category": "Desserts",
+        "price": 4.99,
+        "description": "Creamy vanilla ice cream topped with chocolate syrup, whipped cream, and a cherry."
+    },
+    {
+        "id": 36,
+        "image": "tiramisu.jpg",
+        "name": "Tiramisu",
+        "category": "Desserts",
+        "price": 6.99,
+        "description": "Classic Italian dessert made with layers of coffee-soaked ladyfingers and mascarpone cheese."
+    },
+    {
+        "id": 37,
+        "image": "padthai.jpg",
+        "name": "Pad Thai",
+        "category": "Asian",
+        "price": 7.99,
+        "description": "Stir-fried rice noodles with shrimp, tofu, bean sprouts, and peanuts in a sweet and sour sauce."
+    },
+    {
+        "id": 38,
+        "image": "chicken.jpg",
+        "name": "Chicken Satay",
+        "category": "Asian",
+        "price": 6.99,
+        "description": "Grilled chicken skewers marinated in a mixture of soy sauce, garlic, and ginger, served with a side of peanut sauce."
+    },
+    {
+        "id": 39,
+        "image": "springroll.jpg",
+        "name": "Spring rolls",
+        "category": "Asian",
+        "price": 5.99,
+        "description": "Crispy spring rolls filled with shrimp, vegetables, and rice noodles, served with a sweet and sour sauce."
+    },
+    {
+        "id": 40,
+        "image": "tacos.jpg",
+        "name": "Tacos",
+        "category": "Mexican",
+        "price": 8.99,
+        "description": "Soft tacos filled with seasoned beef, lettuce, tomatoes, cheese, and sour cream. Served with a side of salsa."
+    },
+    {
+        "id": 41,
+        "image": "burrito.jpg",
+        "name": "Burrito",
+        "category": "Mexican",
+        "price": 10.99,
+        "description": "A large burrito filled with seasoned beef, rice, beans, and cheese, topped with salsa and sour cream."
+    },
+    {
+        "id": 42,
+        "image": "quesadilla.jpg",
+        "name": "Quesadilla",
+        "category": "Mexican",
+        "price": 8.99,
+        "description": "A crispy flour tortilla filled with melted cheese, served with a side of salsa and sour cream."
+    },
+    {
+        "id": 43,
+        "image": "salad.jpg",
+        "name": "Greek salad",
+        "category": "Vegetarian",
+        "price": 6.99,
+        "description": "A refreshing Greek salad with crispy lettuce, juicy tomatoes, feta cheese, olives, and cucumber, served with a side of garlic bread."
+    },
+    {
+        "id": 44,
+        "image": "pasta.jpg",
+        "name": "Vegetarian pasta",
+        "category": "Vegetarian",
+        "price": 8.99,
+        "description": "Fresh vegetables sautéed in garlic butter and parsley, served with a side of linguine and garlic bread."
+    },
+    {
+        "id": 45,
+        "image": "padthai.jpg",
+        "name": "Vegetarian Pad Thai",
+        "category": "Vegetarian",
+        "price": 8.99,
+        "description": "Stir-fried rice noodles with tofu, bean sprouts, and peanuts in a sweet and sour sauce."
+    },
+    {
+        "id": 46,
+        "image": "springroll.jpg",
+        "name": "Vegetarian spring rolls",
+        "category": "Vegetarian",
+        "price": 5.99,
+        "description": "Crispy spring rolls filled with tofu, vegetables, and rice noodles, served with a sweet and sour sauce."
+    },
+    {
+        "id": 47,
+        "image": "shrimp.jpg",
+        "name": "Shrimp Scampi",
+        "category": "Seafood",
+        "price": 12.99,
+        "description": "Fresh shrimp sautéed in garlic butter and parsley, served with a side of linguine and garlic bread."
+    },
+    {
+        "id": 48,
+        "image": "lobster.jpg",
+        "name": "Lobster",
+        "category": "Seafood",
+        "price": 19.99,
+        "description": "Fresh lobster cooked in a zesty garlic butter sauce, served with a side of linguine and parsley."
+    },
+    {
+        "id": 49,
+        "image": "oyster.jpg",
+        "name": "Oysters",
+        "category": "Seafood",
+        "price": 14.99,
+        "description": "Fresh oysters topped with a dollop of cocktail sauce and served with a side of garlic bread."
+    }
+]
