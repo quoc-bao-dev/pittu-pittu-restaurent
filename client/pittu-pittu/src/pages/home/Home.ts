@@ -1,9 +1,9 @@
 import Component, { html } from 'qyber';
 import { Dish } from '../../interface';
+import { getAllCate } from '../../services/categoriesService';
 import { getAllDishes } from '../../services/dishesService';
 import './Home.css';
 import MenuItem from './partials/MenuItem';
-import { getAllCate } from '../../services/categoriesService';
 
 interface CateItemProps {
     name: string;
@@ -79,6 +79,7 @@ export default class Home extends Component<{}, HomeState> {
         return html`
             <div>
                 <!-- Hero Section -->
+
                 <section class="hero">
                     <div class="hero-content">
                         <h1>
