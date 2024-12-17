@@ -1,7 +1,6 @@
 import { signal } from 'qyber';
 import { Dish } from '../interface';
 import { getSearchDish } from '../services/dishesService';
-import { startLoading } from './appLoadingSignal';
 
 interface SearchSignal {
     isShow: boolean;

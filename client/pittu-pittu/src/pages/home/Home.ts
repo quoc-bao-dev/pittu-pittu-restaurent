@@ -83,8 +83,9 @@ export default class Home extends Component<{}, HomeState> {
                     <div class="hero-content">
                         <h1>
                             Welcome to
-                            <span class="logo-text">Pittu</span> Pittu
-                            <br />
+                            <span style="display: inline-block;">
+                                <span class="logo-text">Pittu</span> Pittu
+                            </span>
                             Restaurant
                         </h1>
                         <p>Discover our delicious dishes</p>
