@@ -2,6 +2,7 @@ import Component, { html } from 'qyber';
 import { Dish } from '../../interface';
 import { getAllCate } from '../../services/categoriesService';
 import { getAllDishes } from '../../services/dishesService';
+import { urlImg } from '../../utils';
 import './Home.css';
 import MenuItem from './partials/MenuItem';
 
@@ -49,7 +50,6 @@ export default class Home extends Component<{}, HomeState> {
             .then((data) => {
                 this.setState({ listDishes: data });
             });
-
         getAllCate()
             .then((res) => {
                 return res.data.map((item: any) => item.name);
@@ -79,8 +79,12 @@ export default class Home extends Component<{}, HomeState> {
         return html`
             <div>
                 <!-- Hero Section -->
-
                 <section class="hero">
+                    <img
+                        src=${urlImg('banner-1.jpg')}
+                        alt="Banner"
+                        class="banner"
+                    />
                     <div class="hero-content">
                         <h1>
                             Welcome to

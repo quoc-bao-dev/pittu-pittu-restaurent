@@ -16,30 +16,40 @@ class CartCounter extends Component {
         `;
     }
 }
-export default class Header extends Component {
+export default class Header extends Component<{}, { isShowCart: boolean }> {
     constructor() {
         super();
         this.addSignal(authSignal);
+        this.state = {
+            isShowCart: false,
+        };
     }
     render(): HTMLElement {
         const handleSearch = () => {
             const keyword = (this.query('#keyword') as HTMLInputElement).value;
             searchResult(keyword);
         };
+        const onFocus = () => {
+            setTimeout(showResult);
+        };
+        const onBlur = () => {
+            setTimeout(hideResult);
+        };
         return html`
             <!-- Header -->
             <header>
                 <div class="container">
                     <div class="logo" onclick=${() => router.navigate('/home')}>
-                        <span class="logo-text">Pittu</span> Pittu
+                        <span class="logo-text">Pittu</span> <br />
+                        Pittu
                     </div>
 
                     <div class="search-bar">
                         <input
                             type="text"
                             placeholder="Search for dishes"
-                            onfocus=${showResult}
-                            onblur=${hideResult}
+                            onfocus=${onFocus}
+                            onblur=${onBlur}
                             oninput=${handleSearch}
                             autocomplete="off"
                             id="keyword"
@@ -67,7 +77,15 @@ export default class Header extends Component {
                         </button>`}
 
                         <button onclick=${() => router.navigate('/cart')}>
-                            Cart (${CartCounter.r()})
+                            <div style="display: flex; gap: 5px">
+                                <span
+                                    class=${`cart-icon ${
+                                        this.state.isShowCart ? 'hide' : ''
+                                    }`}
+                                    >Cart</span
+                                >
+                                ${CartCounter.r()}
+                            </div>
                         </button>
                     </nav>
                 </div>

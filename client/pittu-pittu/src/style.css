@@ -69,6 +69,9 @@ header {
     font-size: 24px;
     font-weight: bold;
 }
+.logo br {
+    display: block;
+}
 
 .search-bar {
     display: flex;
@@ -78,6 +81,7 @@ header {
     margin: 0 10px;
     flex-wrap: wrap;
     justify-content: center;
+    flex: 1;
 
     @media (max-width: 768px) {
         flex-direction: column;
@@ -101,12 +105,24 @@ header {
     display: none;
 }
 
+span.cart-icon,
 .logout,
 .login {
     display: none;
 }
 
+span.cart-icon.hide {
+    cursor: pointer;
+    display: none;
+}
+
 @media (min-width: 768px) {
+    .logo br {
+        display: none;
+    }
+    .search-bar {
+        flex: 0;
+    }
     .search-bar input {
         width: 400px;
         max-width: 400px;
@@ -114,9 +130,13 @@ header {
     .user-info {
         display: block;
     }
+    span.cart-icon,
     .logout,
     .login {
         display: block;
+    }
+    span.cart-icon.hide {
+        display: inline;
     }
 }
 

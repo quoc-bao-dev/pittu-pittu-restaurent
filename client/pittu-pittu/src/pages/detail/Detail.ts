@@ -1,11 +1,11 @@
 import Component, { html } from 'qyber';
-import './Detail.css';
+import Swal from 'sweetalert2';
 import { CartItem, Dish } from '../../interface';
 import { getDishById } from '../../services/dishesService';
-import { urlImg } from '../../utils';
-import { addToCart } from '../../signal/cartSignal';
-import Swal from 'sweetalert2';
 import { stopLoading } from '../../signal/appLoadingSignal';
+import { addToCart } from '../../signal/cartSignal';
+import { urlImg } from '../../utils';
+import './Detail.css';
 
 interface DetailProps {
     params: { id: string };
@@ -31,12 +31,22 @@ export default class Detail extends Component<DetailProps, DetailState> {
     componentDidMount(): void {
         const id = this.props.params.id;
 
-        getDishById(Number(id)).then((data) => {
-            this.setState({ dish: data.data });
-            setTimeout(() => {
-                stopLoading();
-            }, 400);
-        });
+        getDishById(Number(id))
+            .then((data) => {
+                this.setState({ dish: data.data });
+            })
+            .catch((err) => {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Something went wrong!',
+                });
+            })
+            .finally(() =>
+                setTimeout(() => {
+                    stopLoading();
+                }, 400)
+            );
     }
 
     render(): HTMLElement {
