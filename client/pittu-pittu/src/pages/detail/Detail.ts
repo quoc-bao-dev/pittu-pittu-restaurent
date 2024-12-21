@@ -35,7 +35,7 @@ export default class Detail extends Component<DetailProps, DetailState> {
             .then((data) => {
                 this.setState({ dish: data.data });
             })
-            .catch((err) => {
+            .catch(() => {
                 Swal.fire({
                     icon: 'error',
                     title: 'Oops...',
